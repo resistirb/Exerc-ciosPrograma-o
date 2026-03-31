@@ -58,6 +58,9 @@ public class exercicio6 {
             case(12):
             mesString = "Dezembro";
             break;
+
+            default:
+            mesString = "Mês inválido";
         }
 
         System.out.println(dia + " de " + mesString + " de " + ano);
