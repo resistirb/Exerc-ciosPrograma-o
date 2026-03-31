@@ -4,7 +4,7 @@ public class exercicio8 {
 
         if (temperatura<15){
             System.out.println("Frio");
-        } else if(temperatura <= 15 && temperatura >=25){
+        } else if(temperatura >= 15 && temperatura <=25){
             System.out.println("Agradável");
         } else{
             System.out.println("Quente");
