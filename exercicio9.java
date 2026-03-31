@@ -4,7 +4,7 @@ public class exercicio9 {
 
         if (notafinal <= 1.8){
             System.out.println("Reprovado");
-        } else if(notafinal <=1.9 && notafinal > 6.9){
+        } else if(notafinal >=1.9 && notafinal < 6.9){
             System.out.println("Em exame");
         } else{
             System.out.println("Aprovado");
