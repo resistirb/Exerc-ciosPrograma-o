@@ -19,7 +19,11 @@ public class exercicio4 {
             media +=n3;
         }
 
-        media = media/notaslidas;
+        if(notaslidas > 0){
+            media = media / notaslidas;
+        } else {
+            System.out.println("Nenhuma nota válida");
+        }
 
         System.out.println("Foram lidas " + notaslidas + " notas e a média é " + media + ".");
         
